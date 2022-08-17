@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LTM-BasicTesting]">
+  <test thread-count="5" name="LTMRegister(failed)">
+    <classes>
+      <class name="ltm_testcases.LTM_TCDiscovery">
+        <methods>
+          <include name="closesetup"/>
+          <include name="bf"/>
+          <include name="TCdiscovery"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ltm_testcases.LTM_TCDiscovery -->
+      <class name="ltm_testcases.LTM_RDPConnection">
+        <methods>
+          <include name="setUp"/>
+          <include name="LTMRDPConnection"/>
+          <include name="bf"/>
+        </methods>
+      </class> <!-- ltm_testcases.LTM_RDPConnection -->
+    </classes>
+  </test> <!-- LTMRegister(failed) -->
+</suite> <!-- Failed suite [LTM-BasicTesting] -->
