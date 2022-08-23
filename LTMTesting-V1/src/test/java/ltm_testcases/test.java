@@ -1,5 +1,6 @@
 package ltm_testcases;
 
-public class test {
-
+public class test 
+{
+	//test
 }
