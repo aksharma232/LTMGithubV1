@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T13:25:54 IST" name="LTM-BasicTesting" finished-at="2022-10-06T13:28:51 IST" duration-ms="177004">
+    <groups>
+    </groups>
+    <test started-at="2022-10-06T13:25:54 IST" name="LTMRegister" finished-at="2022-10-06T13:28:51 IST" duration-ms="177004">
+      <class name="ltm_testcases.LTM_RDPConnection">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ltm_testcases.LTM_RDPConnection@bef2d72]" started-at="2022-10-06T13:27:18 IST" name="setUp" finished-at="2022-10-06T13:28:06 IST" duration-ms="48773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LTMRDPConnection()[pri:0, instance:ltm_testcases.LTM_RDPConnection@bef2d72]" started-at="2022-10-06T13:28:06 IST" name="LTMRDPConnection" finished-at="2022-10-06T13:28:50 IST" duration-ms="44118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTMRDPConnection -->
+        <test-method is-config="true" signature="closesetup()[pri:0, instance:ltm_testcases.LTM_RDPConnection@bef2d72]" started-at="2022-10-06T13:28:50 IST" name="closesetup" finished-at="2022-10-06T13:28:51 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+      </class> <!-- ltm_testcases.LTM_RDPConnection -->
+      <class name="ltm_testcases.LTM_Sendmessage">
+        <test-method is-config="true" signature="bf()[pri:0, instance:ltm_testcases.LTM_Sendmessage@5223e5ee]" started-at="2022-10-06T13:25:54 IST" name="bf" finished-at="2022-10-06T13:25:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bf -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ltm_testcases.LTM_Sendmessage@5223e5ee]" started-at="2022-10-06T13:25:54 IST" name="setUp" finished-at="2022-10-06T13:26:59 IST" duration-ms="64862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LTM_Send_Message()[pri:0, instance:ltm_testcases.LTM_Sendmessage@5223e5ee]" started-at="2022-10-06T13:26:59 IST" name="LTM_Send_Message" description="Send Message from LTM" finished-at="2022-10-06T13:27:17 IST" duration-ms="18116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTM_Send_Message -->
+        <test-method is-config="true" signature="closesetup()[pri:0, instance:ltm_testcases.LTM_Sendmessage@5223e5ee]" started-at="2022-10-06T13:27:17 IST" name="closesetup" finished-at="2022-10-06T13:27:18 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+      </class> <!-- ltm_testcases.LTM_Sendmessage -->
+    </test> <!-- LTMRegister -->
+  </suite> <!-- LTM-BasicTesting -->
+</testng-results>

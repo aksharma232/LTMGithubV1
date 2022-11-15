@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="LTM-BasicTesting">
+	
+	<listeners>
+		<listener class-name="ltm_Utility.TestngListeners"/>
+	</listeners>
+	
+	<test name="LTMRegister">
+    
+      <classes>
+      
+      	<class name="ltm_testcases.LTM_TCDiscovery" />
+      	
+       	<!-- class name="ltm_testcases.LTM_Sendmessage"/ -->
+       	
+       	<!-- class name="ltm_testcases.LTM_Upgradepatch"/ -->
+       	
+       	<!-- class name="ltm_testcases.LTM_RDPConnection"/ -->
+       	
+       	<!-- class name="ltm_testcases.LTM_Browserconnection"/ -->
+       	
+        </classes>
+  
+    </test> 
+
+</suite>
