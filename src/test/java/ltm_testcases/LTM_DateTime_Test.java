@@ -42,9 +42,9 @@ public class LTM_DateTime_Test extends LTM_Baseclass
 		
 		DateTime = PageFactory.initElements(d, LTM_DateTime_Page.class);
 		
-		LTM_LHSOptions LHS = new LTM_LHSOptions();
+		LTM_Select_Thinclient LHS = new LTM_Select_Thinclient();
 		
-		LHS.LTM_LHSTC();
+		LHS.LTM_Select_TC();
 		
 		//Thread.sleep(2000);
 		

@@ -30,7 +30,7 @@ public class LTM_TCDiscovery extends LTM_Baseclass {
 	@Test
 	public void TCdiscovery() throws InterruptedException, IOException {
 		LTMDiscovery_Page LTMDiscovery = PageFactory.initElements(d, LTMDiscovery_Page.class);
-		LTM_LHSOptions LHS = new LTM_LHSOptions();
+		LTM_Select_Thinclient LHS = new LTM_Select_Thinclient();
 		LTMDiscovery.clickonviewbtn();
 		SoftAssert softAssert = new SoftAssert();
 // Following click is deprecate from the GUI. It's available in old GUI.
@@ -92,7 +92,7 @@ public class LTM_TCDiscovery extends LTM_Baseclass {
 			}
 		}
 		d.findElement(By.id("ibtntHome")).click();
-		LHS.LTM_LHSTC();
+		LHS.LTM_Select_TC();
 		log.info("TC Selected");
 		softAssert.assertAll();
 	}

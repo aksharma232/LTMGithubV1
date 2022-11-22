@@ -65,7 +65,7 @@ public class LTM_Baseclass {
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		d.get(P1.readproperties().getProperty("LTMURL"));
 		System.out.println("Test Execution start");
-		test.log(LogStatus.PASS, "Navigated to the specified URL");
+		//test.log(LogStatus.PASS, "Navigated to the specified URL");
 		
 	}
 

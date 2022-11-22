@@ -45,11 +45,11 @@ public class LTM_Sendmessage extends LTM_Baseclass
 		
 		LTMTask = PageFactory.initElements(d, LTM_Taskmanagement_page.class);
 				
-		LTM_LHSOptions R1 = new LTM_LHSOptions();
+		LTM_Select_Thinclient TC = new LTM_Select_Thinclient();
 		
-		R1.LTM_LHSTC();
+		TC.LTM_Select_TC();
 		
-		R1.TC_Right_Click();
+		TC.TC_Right_Click();
 		
 		log.info("Right click on TC");
 			

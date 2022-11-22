@@ -10,14 +10,14 @@ import org.openqa.selenium.support.PageFactory;
 import ltm_Pages.LTM_LHS_Page;
 import ltm_Utility.SeleniumUtility;
 
-public class LTM_LHSOptions extends LTM_Baseclass {
+public class LTM_Select_Thinclient extends LTM_Baseclass {
 	LTMLogin ltmlogin;
 	LTM_LHS_Page ltmlhs;
 	WebElement TC1;
 	WebElement groupname1;
 
 	
-	public WebElement LTM_LHSTC() throws IOException, InterruptedException
+	public WebElement LTM_Select_TC() throws IOException, InterruptedException
 	{
 		SeleniumUtility selUtility = new SeleniumUtility();
 		

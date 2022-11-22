@@ -61,9 +61,9 @@ public class LTM_RDPConnection extends LTM_Baseclass
 		
 		JavascriptExecutor js = (JavascriptExecutor)d;
 		
-		LTM_LHSOptions LHS = new LTM_LHSOptions();
+		LTM_Select_Thinclient LHS = new LTM_Select_Thinclient();
 		
-		LHS.LTM_LHSTC();
+		LHS.LTM_Select_TC();
 		
 		log.info("Selecting TC");
 		

@@ -30,7 +30,6 @@ public class LTM_Browserconnection extends LTM_Baseclass {
 	@BeforeMethod
 	public void setUp() throws IOException, InterruptedException {
 		Launchbrowser();
-		//log.info("launching chrome broswer");
 		ltmlogin = new LTMLogin();
 		ltmlogin.login();
 	}
@@ -45,8 +44,8 @@ public class LTM_Browserconnection extends LTM_Baseclass {
 		LTM_Connectionpage Connectionpage = PageFactory.initElements(d, LTM_Connectionpage.class);
 		Xls_Reader ob1 = new Xls_Reader(ltmlogin.Project_path + "\\Testdata\\LTMTestdata.xlsx");
 		JavascriptExecutor js = (JavascriptExecutor) d;
-		LTM_LHSOptions LHS = new LTM_LHSOptions();
-		LHS.LTM_LHSTC();
+		LTM_Select_Thinclient LHS = new LTM_Select_Thinclient();
+		LHS.LTM_Select_TC();
 		//log.info("Selecting TC");
 		@SuppressWarnings("deprecation")
 		WebDriverWait w = new WebDriverWait(d, 150);

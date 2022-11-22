@@ -41,8 +41,8 @@ public class LTM_Upgradepatch extends LTM_Baseclass {
 		LTM_Patchupgrade Patchupgrade = PageFactory.initElements(d, LTM_Patchupgrade.class);
 		LTMTask = PageFactory.initElements(d, LTM_Taskmanagement_page.class);
 		
-		LTM_LHSOptions LHS = new LTM_LHSOptions();
-		LHS.LTM_LHSTC();
+		LTM_Select_Thinclient LHS = new LTM_Select_Thinclient();
+		LHS.LTM_Select_TC();
 		System.out.println("Reached Here");
 		log.info("TC Selected");
 		@SuppressWarnings("deprecation")

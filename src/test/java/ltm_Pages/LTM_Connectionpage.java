@@ -135,8 +135,51 @@ public class LTM_Connectionpage
 		
 	}
 //=================================================================
+//FreeRDP Connection 
+	@FindBy(how=How.ID, using="Linux_Freerdp_txtServer")
+	WebElement FreeRDPServer;
 	
+	@FindBy(how=How.ID, using="Linux_Freerdp_dvFreeRDP_Port")
+	WebElement FreeRDPServerPort;
 	
+	@FindBy(how=How.ID, using="Linux_Freerdp_txtUserName")
+	WebElement FreeRDPUsername;
 	
+	@FindBy(how=How.ID, using="Linux_Freerdp_txtPassword")
+	WebElement FreeRDPPassword;
 	
+
+	@FindBy(how=How.ID, using="Linux_Freerdp_txtDomain")
+	WebElement FreeRDPDomain;
+	
+	@FindBy(how=How.ID, using="Linux_Freerdp_btnSave")
+	WebElement FreeRDPApplybutton;
+	
+	@FindBy(how=How.ID, using="Linux_Freerdp_btnFreeRDPClose")
+	WebElement FreeRDPClosebutton;
+	
+	public WebElement FreeRDPServer()
+	{
+		return FreeRDPServer;
+	}
+
+	public WebElement FreeRDPServerort()
+	{
+		return FreeRDPServerPort;
+	}
+	
+	public WebElement FreeRDPServerpassowrd()
+	{
+		return FreeRDPPassword;
+	}
+	
+	public WebElement FreeRDPDomain()
+	{
+		return FreeRDPDomain;
+	}
+	
+	public WebElement FreeRDPApplybutton()
+	{
+		return FreeRDPApplybutton;
+	}
 }
