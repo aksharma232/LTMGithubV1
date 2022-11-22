@@ -17,6 +17,7 @@ public class LTM_VMwareconnection extends LTM_Baseclass
 	LTM_Patchupgrade Patchupgrade;
 	LTM_Connectionpage Connectionpage;
 	LTM_Select_Thinclient LHS; 
+	//Ajay
 		
 	@BeforeMethod
 	public void setUp() throws IOException, InterruptedException
